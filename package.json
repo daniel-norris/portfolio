@@ -1,0 +1,23 @@
+{
+  "name": "personal_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "@mojs/core": "^0.288.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-norris/personal_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-norris/personal_portfolio/issues"
+  },
+  "homepage": "https://github.com/daniel-norris/personal_portfolio#readme"
+}
