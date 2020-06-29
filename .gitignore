@@ -1,2 +1,4 @@
 site.zip
 *.sketch
+node_modules
+debug.log
