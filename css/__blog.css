@@ -1,0 +1,11 @@
+
+.blog__container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.blog__container > :nth-child(1),
+.blog__container > :nth-child(2) {
+    margin-right: 2rem;
+}

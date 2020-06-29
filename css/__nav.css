@@ -1,0 +1,14 @@
+
+.nav {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.nav__menu {
+    display: flex; 
+    align-items: center; 
+}
+
+.nav__menu > :first-child {
+    margin-right: 1rem; 
+}

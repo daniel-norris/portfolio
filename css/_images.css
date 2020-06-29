@@ -1,0 +1,19 @@
+
+
+.scroll__img {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.scroll__img > :nth-child(1),
+.scroll__img > :nth-child(2) {
+    margin-bottom: .3rem; 
+}
+
+.scroll__img > :nth-child(2) {
+    opacity: 0.5; 
+}
+
+.scroll__img > :nth-child(1) {
+    opacity: 0.25; 
+}

@@ -1,0 +1,108 @@
+
+.large {        /* header font -- 72px */ 
+    font-family: var(--font);
+    font-weight: 600; 
+    font-size: 4.5rem; 
+}
+
+.light-lg {        /* header font -- 72px */ 
+    font-family: var(--font);
+    font-weight: 300; 
+    font-size: 4.5rem; 
+}
+
+.medium {       /* button, download, skills subs -- 16px */
+    font-family: var(--font); 
+    font-weight: 500; 
+    font-size: 1rem;
+}
+
+.regular {      /* sub heading text -- 20px */ 
+    font-family: var(--font);
+    font-weight: 400; 
+    font-size: 1.25rem; 
+}
+
+.light {        /* page headings -- 48px */ 
+    font-family: var(--font); 
+    font-weight: 300; 
+    font-size: 3rem; 
+}
+
+.light-med {    /* contact heading -- 36px */ 
+    font-family: var(--font); 
+    font-weight: 300; 
+    font-size: 2.25rem; 
+}
+
+.light-sml {    /* card headings -- 22px */ 
+    font-family: var(--font); 
+    font-weight: 300; 
+    font-size: 1.375rem;
+}
+
+.regular-sml {  /* blog headings -- 18px */ 
+    font-family: var(--font); 
+    font-weight: 400; 
+    font-size: 1.125rem; 
+}
+
+.regular-tiny { 
+    font-family: var(--font); 
+    font-weight: 400; 
+    font-size: 1rem; 
+}
+
+.small-med {    /* blog description -- 14px */
+    font-family: var(--font); 
+    font-weight: 400; 
+    font-size: .875rem; 
+}
+
+.small {        /* scroll down -- 12px */ 
+    font-family: var(--font); 
+    font-weight: 400; 
+    font-size: .75rem; 
+}
+
+.small-bold {   /* blog stats -- 12px */ 
+    font-family: var(--font); 
+    font-weight: 600;  
+    font-size: .75rem; 
+}
+
+/* links */ 
+
+.link-nm {         /* eg download cv button */ 
+    font-family: var(--font); 
+    font-size: 1rem; 
+    font-weight: 500;  
+    text-decoration: none; 
+    color: var(--lightWhite); 
+}
+
+.portfolio__btn {
+    font-family: var(--font); 
+    font-size: 1rem; 
+    font-weight: 400; 
+    text-decoration: none; 
+    color: var(--darkGrey); 
+}
+
+.link-menu {
+    font-family: var(--font); 
+    font-size: .875rem; 
+    font-weight: 500;  
+    text-decoration: none; 
+    color: var(--tertiaryColor); 
+    text-transform: uppercase;
+}
+
+.link-scroll {
+    font-family: var(--font); 
+    font-size: .75rem; 
+    font-weight: 400;  
+    color: var(--lightWhite); 
+    text-decoration: none; 
+}
+

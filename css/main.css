@@ -1,0 +1,25 @@
+
+@import '_reset.css'; 
+@import '_settings.css'; 
+
+/* atoms */ 
+
+@import '_typography.css'; 
+@import '_colors.css';
+@import '_buttons.css'; 
+@import '_icons.css'; 
+@import '_social.css'; 
+@import '_cards.css'; 
+@import '_images.css'; 
+@import '_forms.css'; 
+
+
+/* molecules */ 
+
+@import '__nav.css';
+@import '__cover.css';
+@import '__skills.css';
+@import '__portfolio.css';
+@import '__blog.css';
+@import '__testimonial.css';
+@import '__contact.css'; 

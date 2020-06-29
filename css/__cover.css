@@ -1,0 +1,24 @@
+
+.hero {
+    margin: 8rem 0; 
+    
+}
+
+.hero__btns {
+    display: flex; 
+    align-items: center; 
+    margin-top: 3rem;
+}
+
+.hero__btns > :first-child {
+    margin-right: 2rem; 
+}
+
+.scroll {
+    display: flex; 
+    align-items: flex-end;
+}
+
+.scroll > :first-child {
+    margin-right: 1rem; 
+}

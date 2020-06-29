@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content=""> 
+        
+
+        <title>Personal Portfolio: Components</title>
+
+        <link rel="stylesheet" href="css/main.css"> 
+
+   
+        <style>
+
+            .wrapper {
+                margin: 0 auto;
+                width: 100%; 
+                padding: 2rem; 
+                background: var(--lightWhite);
+            }
+
+            .wrapper > * {
+                margin: 1rem 0;
+            }
+    
+            .wrapper-dark {
+                width: 100%; 
+                background: var(--blueGradient); 
+                padding: 2rem; 
+                margin: 0 auto; 
+                display: flex; 
+                flex-direction: column; 
+            }
+
+            .wrapper-dark > * {
+                margin: 1rem 0;
+            }
+    
+            
+
+            .demo__color {
+                display: flex; 
+                align-items: center; 
+                justify-items: center; 
+                width: 8rem; 
+                height: 8rem; 
+                
+                padding: 1rem; 
+            }
+
+            .demo__progress {
+                width: 15rem; 
+            }
+
+            .flex {
+                
+            }
+
+            .flex-column {
+                display: flex; 
+                flex-direction: column; 
+            }
+
+            form > input:nth-child(1n) {
+                margin-right: 1rem; 
+            }
+
+        </style>
+
+  
+        
+
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+
+            <!-- ATOMS -->
+
+            <!-- colors -->
+
+            <div class="flex demo__color primaryColor-bg">.primaryColor</div>
+            <div class="flex demo__color secondaryColor-bg">.secondaryColor</div>
+            <div class="flex demo__color tertiaryColor-bg">.tertiaryColor</div>
+            <div class="flex demo__color darkGrey-bg">.darkGrey</div>
+            <div class="flex demo__color mediumGrey-bg">.mediumGrey</div>
+            <div class="flex demo__color lightGrey-bg">.lightGrey</div>
+            <div class="flex demo__color lightWhite-bg">.lightWhite</div>
+
+            <!-- typography -->
+
+            
+            <p class="small">A .small font.</p>
+            <p class="small-bold">A .small-bold font.</p>
+            <p class="small-med">A .small-med font.</p>
+                     
+            <p class="medium">A .medium regular font.</p>
+            <p class="regular-sml">A .regular-sml font.</p>  
+            <p class="regular">A .regular regular font.</p>
+            <p class="light-sml">A .light-sml font.</p>
+            <p class="light-med">A .light-med font.</p> 
+            <p class="light">A .light lighter font.</p>
+            <p class="large">A .large bold font.</p>
+
+            <!-- buttons -->
+
+            <button class="btn-category">Everything</button>
+
+            <button class="btn">Get in touch<img src="assets/icons/right-arrow-white.svg"></button>
+
+            <button class="btn-dark">Send Message</button>
+
+            <!-- images, icons -->
+
+            <img src="assets/icons/css3-original.svg" class="cards__img" alt="">
+
+            <img src="assets/icons/html5-original.svg" class="cards__img" alt="">
+
+            <img src="assets/icons/javascript-original.svg" class="cards__img" alt="">
+
+            <img src="assets/icons/react-original.svg" class="cards__img" alt="">
+
+            <img src="assets/icons/nodejs-original.svg" class="cards__img" alt="">
+
+            <img src="assets/icons/laravel-plain.svg" class="cards__img" alt="">
+
+            <!-- testimonial images -->
+
+            <div style="display: flex;">  <!-- fix image sizing here on first img not shown -->
+                <picture style="display: none;">
+                    <source srcset="assets/images/Avatar_4.webp">
+                    <img src="assets/images/Avatar_4.png" alt="">
+                </picture>
+                
+                <picture>
+                    <source srcset="assets/images/Avatar_1.webp">
+                    <img src="assets/images/Avatar_1.png" alt="">
+                </picture>
+                
+                <picture>
+                    <source srcset="assets/images/Avatar_2.webp">
+                    <img src="assets/images/Avatar_2.png" alt="">
+                </picture>
+                
+                <picture>
+                    <source srcset="assets/images/Avatar_3.webp">
+                    <img src="assets/images/Avatar_3.png" alt="">
+                </picture>
+            </div>
+
+           
+            
+
+            <!-- skill % bars --> 
+
+            <!-- REDO THIS WITH PSEUDO ELEMENTS -->
+
+            <div class="demo__progress">
+                <div class="progress-full">
+                    <div class="progress-partial"></div>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- cards -->
+
+            <div class="cards"></div>
+
+            <br>
+
+            <div class="cards-long"></div>
+
+            <br> 
+
+            <!-- form -->
+
+            <form style="display: flex; width: 50%;"> 
+                <label for=""></label>
+                <input type="text" id="" value="First Name">
+                <label for=""></label>
+                <input type="text" id="" value="Last Name">
+            </form>
+
+        </div>
+
+        <div class="wrapper-dark">
+
+            <!-- links, anchors, etc. -->
+
+            <a class="link-nm" href="#">Download CV</a>
+
+            <a class="link-menu" href="#">Menu</a>
+
+            <a class="link-scroll" href="#">Scroll Down</a>
+
+            <!-- scroll icon -->
+
+            <div class="scroll">
+                <div class="scroll__img">
+                    <img src="assets/icons/scroll_caret.svg" alt="">
+                    <img src="assets/icons/scroll_caret.svg" alt="">
+                    <img src="assets/icons/scroll_caret.svg" alt="">
+                </div>
+            </div>
+
+            <!-- watermark -->
+
+            <div class="watermark"></div>
+
+            <div class="watermark-inverse"></div>
+
+            <!-- social  -->
+
+            <div class="flex">
+                <a href="#"><img class="social__bg" src="assets/icons/codepen.svg"></a>
+
+                <a href="#"><img class="social__bg" src="assets/icons/linkedin.svg"></a>
+
+                <a href="#"><img class="social__bg" src="assets/icons/twitter.svg"></a>
+
+                <a href="#"><img class="social__bg" src="assets/icons/github.svg"></a>
+                
+                <a href="#"><img class="social__bg" src="assets/icons/instagram.svg"></a>
+            </div>
+
+
+        </div>
+
+        <!-- MOLECULES -->
+
+        <div class="wrapper">
+
+            <!-- skill cards -->
+
+            <section class="cards">
+
+                <img src="assets/icons/css3-original.svg" class="cards__img" alt="">
+                
+                <div class="cards__row">
+                    <h2 class="cards__txt">CSS3</h2><p class="cards__txt-light">89%</p>
+                </div>
+                
+                <div>
+                    <div class="progress-full">
+                        <div class="progress-partial"></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- portfolio cards -->
+
+            <article class="cards-portfolio">
+
+                <picture>
+                    <source srcset="assets/images/Image.webp">
+                    <img src="assets/images/Image.png" alt="">
+                </picture>
+
+                <header>
+                    <h2 class="light-sml primaryColor">Mobile App</h2>
+                </header>
+
+                <p class="regular-tiny darkGrey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fuga suscipit maxime.</p>
+
+                <div class="cards-portfolio__tech">
+                    <div>
+                        <a href=""><img src="assets/icons/github-original.svg" alt=""></a>
+                        <a href=""><p>github.com/xyz</p></a>
+                    </div>
+                    <div>
+                        <a href=""><img src="assets/icons/react-original.svg" alt=""></a>
+                        <a href=""><p>React</p></a>
+                    </div>
+                    <div>
+                        <a href=""><img src="assets/icons/javascript-original.svg" alt=""></a>
+                        <a href=""><p>JavaScript</p></a>
+                    </div>
+                </div> 
+
+            </article>
+
+            <!-- blog cards -->
+
+            <article class="cards-long">
+
+                <picture>
+                    <source srcset="assets/images/bigImage.webp">
+                    <img src="assets/images/bigImage.png" alt=""> 
+                </picture>
+
+                <header>
+                    <time class="small darkGrey" datetime="11 February 2018">11 February 2018</time>
+                    <h2 class="regular-sml secondaryColor">SpaceX will try a triple booster landing with Falcon Heavy launch</h2>
+                    <p class="small-med darkGrey">Bunch of components will help you to prototype, design & build much faster.</p>
+                </header>
+
+                <footer>
+
+                    <div class="cards-long__stats">
+                        <div>
+                            <img src="assets/icons/View-Icon.svg" alt="">
+                            <p class="small-bold darkGrey">783</p>
+                        </div>
+                        <div>
+                            <img src="assets/icons/Comment-Icon.svg" alt="">
+                            <p class="small-bold darkGrey">46</p>
+                        </div>
+                    </div>
+                    
+                    <p class="small-bold darkGrey">READ MORE</p>
+                </footer>
+
+            </article>
+
+        </div>
+      
+        <div class="wrapper-dark">
+
+            <!-- nav menu -->
+
+            <div class="nav__menu">
+                <a class="link-menu" href="#">Menu</a>
+                <img src="assets/icons/hamburger.svg" alt="">
+            </div>
+            
+            <!-- hero buttons and links -->
+
+            <div class="hero__btns">
+                <button class="btn">Get in touch<img src="assets/icons/right-arrow-white.svg"></button>
+                <a class="link-nm" href="#">Download CV</a>
+            </div>
+
+            <!-- scroll down -->
+
+            <div class="scroll">
+                <div class="scroll__img">
+                    <img src="assets/icons/scroll_caret.svg" alt="">
+                    <img src="assets/icons/scroll_caret.svg" alt="">
+                    <img src="assets/icons/scroll_caret.svg" alt="">
+                </div>
+                <a class="link-scroll" href="#">Scroll Down</a>
+            </div>
+
+        </div>
+
+
+
+    </body>
+
+
+</html>
