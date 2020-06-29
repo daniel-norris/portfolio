@@ -72,26 +72,89 @@ a {
     flex-direction: column;
 }
 
-.wrapper {
-    margin: auto;
-    width: 100%;
-    background: var(--lightWhite);
-    padding: 2rem 10rem;
-    box-sizing: border-box;
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        margin: auto;
+        width: 100%;
+        background: var(--lightWhite);
+        padding: 2rem 1rem;
+        box-sizing: border-box;
+    }
+
+    .wrapper-dark {
+        width: 100%;
+        background: var(--blueGradient);
+        margin: auto;
+        padding: 2rem 1rem;
+        box-sizing: border-box;
+    }
+
+    .wrapper-light {
+        width: 100%;
+        background: var(--white);
+        margin: auto;
+        padding: 2rem 1rem;
+        box-sizing: border-box;
+    }
+
 }
 
-.wrapper-dark {
-    width: 100%;
-    background: var(--blueGradient);
-    margin: auto;
-    padding: 2rem 10rem;
-    box-sizing: border-box;
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .wrapper {
+        margin: auto;
+        width: 100%;
+        background: var(--lightWhite);
+        padding: 2rem 5rem;
+        box-sizing: border-box;
+    }
+
+    .wrapper-dark {
+        width: 100%;
+        background: var(--blueGradient);
+        margin: auto;
+        padding: 2rem 5rem;
+        box-sizing: border-box;
+    }
+
+    .wrapper-light {
+        width: 100%;
+        background: var(--white);
+        margin: auto;
+        padding: 2rem 5rem;
+        box-sizing: border-box;
+    }
 }
 
-.wrapper-light {
-    width: 100%;
-    background: var(--white);
-    margin: auto;
-    padding: 2rem 10rem;
-    box-sizing: border-box;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+        margin: auto;
+        width: 100%;
+        background: var(--lightWhite);
+        padding: 2rem 10rem;
+        box-sizing: border-box;
+    }
+
+    .wrapper-dark {
+        width: 100%;
+        background: var(--blueGradient);
+        margin: auto;
+        padding: 2rem 10rem;
+        box-sizing: border-box;
+    }
+
+    .wrapper-light {
+        width: 100%;
+        background: var(--white);
+        margin: auto;
+        padding: 2rem 10rem;
+        box-sizing: border-box;
+    }
+
 }
