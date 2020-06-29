@@ -1,0 +1,22 @@
+.footer {
+    background: var(--blueGradient);
+    height: 5rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__group {
+    display: flex;
+}
+
+.footer__group > a {
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer__group > * > img {
+    width: 2rem;
+    margin-right: 1rem;
+}

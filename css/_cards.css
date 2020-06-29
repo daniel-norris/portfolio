@@ -1,70 +1,70 @@
-/* skills cards */ 
+/* skills cards */
 
 .cards {
     box-sizing: border-box;
     /* width: 22.5rem;  */
-    height: 13.75rem; 
-    background-color: #fff; 
-    border: 1px solid #DDDFE7; 
-    border-radius: 4px; 
-    padding: 1rem; 
-    display: flex; 
+    height: 13.75rem;
+    background-color: #fff;
+    border: 1px solid #DDDFE7;
+    border-radius: 4px;
+    padding: 1rem;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .cards > * {
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
 }
 
 .cards__row {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
 }
 
 .cards__txt {
-    font-family: var(--font); 
-    color: var(--primaryColor); 
-    font-weight: var(--bold); 
+    font-family: var(--font);
+    color: var(--primaryColor);
+    font-weight: var(--bold);
     font-size: 1rem;
 }
 
 .cards__txt-light {
-    font-family: var(--font); 
-    color: var(--mediumGrey); 
+    font-family: var(--font);
+    color: var(--mediumGrey);
     font-weight: var(--medium);
     font-size: 1rem;
 }
 
 .cards__img {
-    width: 4.125rem; 
-    height: 4.125rem; 
+    width: 4.125rem;
+    height: 4.125rem;
     align-self: center;
 }
 
 
 
-/* blog cards */ 
+/* blog cards */
 
 .cards-long {
-    width: 22.5rem; 
+    width: 22.5rem;
     height: 100%; /* 33.3125rem;  */
-    background-color: #fff; 
+    background-color: #fff;
     border-radius: 4px;
     filter: drop-shadow(1px 1px 30px var(--lightGrey));
-    box-sizing: border-box; 
+    box-sizing: border-box;
     padding: 1rem;
 }
 
 .cards-long > *,
-.cards-long > picture > source, 
+.cards-long > picture > source,
 .cards-long > picture > img {
-    margin-bottom: 1.5rem; 
+    margin-bottom: 1.5rem;
 }
 
 .cards-long header {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .cards-long header > * {
@@ -73,9 +73,9 @@
 
 .cards-long footer {
     display: flex;
-    
+
     justify-content: space-between;
-    
+
 }
 
 .cards-long__stats {
@@ -84,7 +84,7 @@
 }
 
 .cards-long__stats > :first-child {
-    margin-right: 2rem; 
+    margin-right: 2rem;
 }
 
 .cards-long__stats > div {
@@ -98,74 +98,80 @@
 
 
 
-/* portfolio cards */ 
+/* portfolio cards */
+
+.card__image {
+    height: 20rem;
+    object-fit: contain;
+}
 
 .cards-portfolio {
-    width: 100%; /* 16.5rem; */
-    display: flex; 
-    flex-direction: column; 
+    height: 45rem; /* 16.5rem; */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    margin: 0 1rem;
 }
 
 .cards-portfolio p {
     text-align: center;
 }
 
-.cards-portfolio source,
+/* .cards-portfolio source,
 .cards-portfolio img {
-    filter: drop-shadow(1px 1px 30px var(--lightGrey)); 
-}
+    filter: drop-shadow(1px 1px 30px var(--lightGrey));
+} */
 
-.cards-portfolio > :nth-child(1), 
+.cards-portfolio > :nth-child(1),
 .cards-portfolio > :nth-child(2),
 .cards-portfolio > :nth-child(3) {
-    margin-bottom: 1.5rem; 
+    margin-bottom: 1.5rem;
 }
 
 .cards-portfolio__tech {
-    display: flex;    
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
 }
 
 .cards-portfolio__tech > div {
-    display: flex; 
+    display: flex;
     align-items: center;
-    
+
 }
 
 .cards-portfolio__tech > div > :first-child {
-    margin-right: 1rem; 
+    margin-right: 1rem;
 }
 
 .cards-portfolio__tech * {
-    font-family: var(--font); 
-    font-weight: var(--regular); 
-    font-size: 1rem; 
-    color: var(--darkGrey); 
+    font-family: var(--font);
+    font-weight: var(--regular);
+    font-size: 1rem;
+    color: var(--darkGrey);
     text-decoration: none;
 }
 
 .cards-portfolio__tech img,
 .cards-portfolio__tech source {
-    width: 1.875rem; 
-    height: 1.875rem;    
-    
+    width: 1.875rem;
+    height: 1.875rem;
+
 }
 
 /* progress bars */
 
 .progress-full {
-    background-color: var(--lightGrey); 
-    border-radius: 5px; 
-    width: 100%; 
-    height: .3rem; 
+    background-color: var(--lightGrey);
+    border-radius: 5px;
+    width: 100%;
+    height: .3rem;
 }
 
 .progress-partial {
-    background-color: var(--secondaryColor); 
-    border-radius: 5px; 
-    width: 87%; 
-    height: .3rem; 
+    background-color: var(--secondaryColor);
+    border-radius: 5px;
+    width: 87%;
+    height: .3rem;
     filter: drop-shadow(0px 3px 3px var(--darkGrey));
 }

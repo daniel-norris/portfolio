@@ -2,14 +2,14 @@
 
 @font-face {
     src: url(../assets/fonts/Roboto-Regular.ttf) format("truetype");
-    font-family: roboto; 
+    font-family: roboto;
     font-weight: 400;
-} 
+}
 
 @font-face {
     src: url(../assets/fonts/Roboto-Bold.ttf) format("truetype");
-    font-family: roboto; 
-    font-weight: 600; 
+    font-family: roboto;
+    font-weight: 600;
 }
 
 @font-face {
@@ -20,8 +20,8 @@
 
 @font-face {
     src: url(../assets/fonts/Roboto-Light.ttf) format("truetype");
-    font-family: roboto; 
-    font-weight: 300; 
+    font-family: roboto;
+    font-weight: 300;
 }
 
 
@@ -29,57 +29,69 @@
 
 :root {
 
-    /* colors */ 
+    /* colors */
 
-    --primaryColor: #0F358E; 
-    --secondaryColor: #1A47B0; 
-    --tertiaryColor: #709BE7; 
-    --darkGrey: #595F6F; 
-    --mediumGrey: #BFC4CE; 
-    --lightGrey: #DDDFE7; 
-    --lightWhite: #F7F8FB; 
-    --white: #fff; 
+    --primaryColor: #0F358E;
+    --secondaryColor: #1A47B0;
+    --tertiaryColor: #709BE7;
+    --darkGrey: #595F6F;
+    --mediumGrey: #BFC4CE;
+    --lightGrey: #DDDFE7;
+    --lightWhite: #F7F8FB;
+    --white: #fff;
 
-    /* gradients */ 
+    /* gradients */
 
     --redGradient: linear-gradient(#FA2B56, #F91C3D);
     --blueGradient: linear-gradient(#123075, #092056);
     --darkGradient: linear-gradient(#061843, #05112E);
 
-    /* root font */ 
-    
-    --font: roboto, helvetica, sans-serif; 
+    /* root font */
 
-    /* --bold: 800; 
-    --regular: 500; 
-    --medium: 400; 
+    --font: roboto, helvetica, sans-serif;
+
+    /* --bold: 800;
+    --regular: 500;
+    --medium: 400;
     --light: 300;  */
 
 
 }
 
-/* utility */ 
+/* utility */
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
 
 .wrapper {
     margin: auto;
-    width: 100%; 
+    width: 100%;
     background: var(--lightWhite);
     padding: 2rem 10rem;
     box-sizing: border-box;
 }
 
 .wrapper-dark {
-    width: 100%; 
-    background: var(--blueGradient); 
-    margin: auto; 
+    width: 100%;
+    background: var(--blueGradient);
+    margin: auto;
     padding: 2rem 10rem;
     box-sizing: border-box;
 }
 
 .wrapper-light {
-    width: 100%; 
-    background: var(--white); 
-    margin: auto; 
+    width: 100%;
+    background: var(--white);
+    margin: auto;
     padding: 2rem 10rem;
     box-sizing: border-box;
 }
