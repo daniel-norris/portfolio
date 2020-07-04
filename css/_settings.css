@@ -35,7 +35,7 @@
     --secondaryColor: #1A47B0;
     --tertiaryColor: #709BE7;
     --darkGrey: #595F6F;
-    --mediumGrey: #BFC4CE;
+    --mediumGrey: #757575;
     --lightGrey: #DDDFE7;
     --lightWhite: #F7F8FB;
     --white: #fff;
@@ -66,6 +66,15 @@ a {
 
 .flex {
     display: flex;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+}
+
+.justify {
+    justify-content: center;
 }
 
 .column {
