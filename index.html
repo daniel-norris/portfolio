@@ -1,278 +1,409 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Portfolio page for Dan Norris. Dan is a Full Stack Developer living in Bristol, UK."
+    />
 
-        <meta name="description" content="Portfolio page for Dan Norris. Dan is a Full Stack Developer living in Bristol, UK.">
+    <title>Dan Norris</title>
 
-        <title>Dan Norris</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
 
-        <link rel="stylesheet" href="css/main.min.css">
-    </head>
+  <body>
+    <div class="wrapper-dark">
+      <main class="hero">
+        <h1 class="large white">Hi, I'm Dan.</h1>
+        <h2 class="light-lg white">... a Full Stack Developer.</h2>
+        <section class="hero__btns">
+          <a href="mailto:dan.norris@hotmail.com">
+            <button class="btn">
+              Get in touch<img
+                alt="right caret to get in touch"
+                src="assets/icons/right-arrow-white.svg"
+              />
+            </button>
+          </a>
+          <a class="link-nm" href="/assets/DanNorrisV4.pdf" download
+            >Download CV</a
+          >
+        </section>
+      </main>
 
-    <body>
-
-        <div class="wrapper-dark">
-            <main class="hero">
-                <h1 class=" large white">Hi, I'm Dan.</h1>
-                <h2 class="light-lg white">... a Full Stack Developer.</h2>
-                <section class="hero__btns">
-                    <a href="mailto:dan.norris@hotmail.com">
-                        <button class="btn">Get in touch<img alt="right caret to get in touch" src="assets/icons/right-arrow-white.svg"></button>
-                    </a>
-                    <a class="link-nm" href="/assets/DanNorrisV4.pdf" download>Download CV</a>
-                </section>
-            </main>
-
-            <section class="scroll">
-                <div class="scroll__img">
-                    <img src="assets/icons/scroll_caret.svg" alt="down caret to scroll down">
-                    <img src="assets/icons/scroll_caret.svg" alt="down caret to scroll down">
-                    <img src="assets/icons/scroll_caret.svg" alt="down caret to scroll down">
-                </div>
-                <a class="link-scroll" href="#">Scroll Down</a>
-            </section>
+      <section class="scroll">
+        <div class="scroll__img">
+          <img
+            src="assets/icons/scroll_caret.svg"
+            alt="down caret to scroll down"
+          />
+          <img
+            src="assets/icons/scroll_caret.svg"
+            alt="down caret to scroll down"
+          />
+          <img
+            src="assets/icons/scroll_caret.svg"
+            alt="down caret to scroll down"
+          />
         </div>
+        <a class="link-scroll" href="#">Scroll Down</a>
+      </section>
+    </div>
 
-        <div class=" wrapper">
-            <article class="skills__header">
-                <header>
-                    <h3 class="light primaryColor">Technical Experience</h3>
-                </header>
-                <p class="regular darkGrey">Experience developing responsive, accessible, full stack applications using React and Laravel.</p>
-            </article>
-            <div class="skills__container">
-                <section class="cards">
-                    <img src="assets/icons/css3-original.svg" class="cards__img" alt="css icon">
-                    <div class="cards__row">
-                        <p class="cards__txt">CSS3</p><p class="cards__txt-light">89%</p>
-                    </div>
-                    <div>
-                        <div class="progress-full">
-                            <div class="progress-partial"></div>
-                        </div>
-                    </div>
-                </section>
-                <section class="cards">
-                    <img src="assets/icons/html5-original.svg" class="cards__img" alt="html5 icon">
-                    <div class="cards__row">
-                        <p class="cards__txt">HTML5</p><p class="cards__txt-light">89%</p>
-                    </div>
-                    <div>
-                        <div class="progress-full">
-                            <div class="progress-partial"></div>
-                        </div>
-                    </div>
-                </section>
-                <section class="cards">
-                    <img src="assets/icons/javascript-original.svg" class="cards__img" alt="javascript icon">
-                    <div class="cards__row">
-                        <p class="cards__txt">JavaScript</p><p class="cards__txt-light">89%</p>
-                    </div>
-                    <div>
-                        <div class="progress-full">
-                            <div class="progress-partial"></div>
-                        </div>
-                    </div>
-                </section>
-                <section class="cards">
-                    <img src="assets/icons/react-original.svg" class="cards__img" alt="react icon">
-                    <div class="cards__row">
-                        <p class="cards__txt">React</p><p class="cards__txt-light">89%</p>
-                    </div>
-                    <div>
-                        <div class="progress-full">
-                            <div class="progress-partial"></div>
-                        </div>
-                    </div>
-                </section>
-                <section class="cards">
-                    <img src="assets/icons/nodejs-original.svg" class="cards__img" alt="node icon">
-                    <div class="cards__row">
-                        <p class="cards__txt">Node</p><p class="cards__txt-light">89%</p>
-                    </div>
-                    <div>
-                        <div class="progress-full">
-                            <div class="progress-partial"></div>
-                        </div>
-                    </div>
-                </section>
-                <section class="cards">
-                    <img src="assets/icons/laravel-plain.svg" class="cards__img" alt="laravel icon">
-                    <div class="cards__row">
-                        <p class="cards__txt">Laravel</p><p class="cards__txt-light">89%</p>
-                    </div>
-                    <div>
-                        <div class="progress-full">
-                            <div class="progress-partial"></div>
-                        </div>
-                    </div>
-                </section>
+    <div class="wrapper">
+      <article class="skills__header">
+        <header>
+          <h3 class="light primaryColor">Technical Experience</h3>
+        </header>
+        <p class="regular darkGrey">
+          Experience developing responsive, accessible, full stack applications
+          using React and Laravel.
+        </p>
+      </article>
+      <div class="skills__container">
+        <section class="cards">
+          <img
+            src="assets/icons/css3-original.svg"
+            class="cards__img"
+            alt="css icon"
+          />
+          <div class="cards__row">
+            <p class="cards__txt">CSS3</p>
+            <p class="cards__txt-light">89%</p>
+          </div>
+          <div>
+            <div class="progress-full">
+              <div class="progress-partial"></div>
             </div>
-        </div>
-
-        <div class="wrapper-light">
-            <article class="portfolio__header">
-                <header>
-                    <h3 class="light primaryColor">Recent Work</h3>
-                </header>
-                <p class="regular darkGrey">Comfortable working individually or as part of a team. The group work below was all delivered as part of separate remote distributed teams using Git, GitHub and Gitflow workflow.</p>
-            </article>
-            <div class="portfolio__articles">
-                <article class="cards-portfolio">
-                    <picture>
-                        <source srcset="assets/images/foodraft.webp">
-                        <img class="card__image" src="assets/images/foodraft.PNG" alt="screenshot of foodraft app">
-                    </picture>
-                    <header>
-                        <h4 class="light-sml primaryColor">FooDraft</h4>
-                    </header>
-                    <p class="regular-tiny darkGrey">A full stack application built independently enabling users to draft, select, randomise and predict winners for football teams of sizes 1 - 9. </p>
-                    <div class="cards-portfolio__tech">
-                        <div>
-                            <img src="assets/icons/github-original.svg" alt="icon for github">
-                            <a href="https://github.com/daniel-norris/football_app">
-                                <p>github.com/foodraft</p>
-                            </a>
-                        </div>
-                        <div>
-                            <img src="assets/icons/react-original.svg" alt="icon for react">
-                            <p>React</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/redux-original.svg" alt="icon for redux">
-                            <p>Redux</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/laravel-plain.svg" alt="icon for laravel">
-                            <p>Laravel</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/sass-original.svg" alt="icon for sass">
-                            <p>Sass</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/amazonwebservices-original.svg" alt="icon for aws">
-                            <p>AWS</p>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="cards-portfolio">
-                    <picture>
-                        <source srcset="assets/images/happycampers.webp">
-                        <img class="card__image" src="assets/images/happycampers.PNG" alt="screenshot of happycampers app">
-                    </picture>
-                    <header>
-                        <h4 class="light-sml primaryColor">HappyCampers</h4>
-                    </header>
-                    <p class="regular-tiny darkGrey">Built as a team of 4 using React, Redux with a Laravel RESTful API. Consuming a 3rd party API, Google Maps. An app enabling users to find affordable camping spots across the UK.</p>
-                    <div class="cards-portfolio__tech">
-                        <div>
-                            <img src="assets/icons/github-original.svg" alt="icon for github">
-                            <a href="https://github.com/daniel-norris/happy-campers">
-                                <p>github.com/happycampers</p>
-                            </a>
-                        </div>
-                        <div>
-                            <img src="assets/icons/react-original.svg" alt="icon for react">
-                            <p>React</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/redux-original.svg" alt="icon for redux">
-                            <p>Redux</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/laravel-plain.svg" alt="icon for laravel">
-                            <p>Laravel</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/sass-original.svg" alt="icon for sass">
-                            <p>Sass</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/amazonwebservices-original.svg" alt="icon for aws">
-                            <p>AWS</p>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="cards-portfolio">
-                    <picture>
-                        <source srcset="assets/images/neu.webp">
-                        <img class="card__image" src="assets/images/neu.PNG" alt="screenshot of neu component library">
-                    </picture>
-                    <header>
-                        <h4 class="light-sml primaryColor">Neu UI</h4>
-                    </header>
-                    <p class="regular-tiny darkGrey">"Neu" a neumorphic open-source component library created using Sass, React and style guide created using Storybook. Available shortly on npm.</p>
-                    <div class="cards-portfolio__tech">
-                        <div>
-                            <img src="assets/icons/github-original.svg" alt="icon for github">
-                            <a href="https://github.com/daniel-norris/neu_ui">
-                                <p>github.com/neu</p>
-                            </a>
-                        </div>
-                        <div>
-                            <img src="assets/icons/react-original.svg" alt="icon for react">
-                            <p>React</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/sass-original.svg" alt="icon for sass">
-                            <p>Sass</p>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="cards-portfolio">
-                    <picture>
-                        <source srcset="assets/images/pingpong.webp">
-                        <img class="card__image" src="assets/images/pingpong.PNG" alt="screenshot of pingpong app">
-                    </picture>
-                    <header>
-                        <h4 class="light-sml primaryColor">PingPong</h4>
-                    </header>
-                    <p class="regular-tiny darkGrey">A ping pong scoring app that enables the user to choose player names, serve alternation and winning score. Additional logic included to determine deuce, game history and language localisation to Esperanto. Built using React, Redux and React Bootstrap.</p>
-                    <div class="cards-portfolio__tech">
-                        <div>
-                            <img src="assets/icons/github-original.svg" alt="icon for github">
-                            <a href="https://github.com/daniel-norris/pingpong">
-                                <p>github.com/pingpong</p>
-                            </a>
-                        </div>
-                        <div>
-                            <img src="assets/icons/react-original.svg" alt="icon for react">
-                            <p>React</p>
-                        </div>
-                        <div>
-                            <img src="assets/icons/redux-original.svg" alt="icon for redux">
-                            <p>Redux</p>
-                        </div>
-                    </div>
-                </article>
+          </div>
+        </section>
+        <section class="cards">
+          <img
+            src="assets/icons/html5-original.svg"
+            class="cards__img"
+            alt="html5 icon"
+          />
+          <div class="cards__row">
+            <p class="cards__txt">HTML5</p>
+            <p class="cards__txt-light">89%</p>
+          </div>
+          <div>
+            <div class="progress-full">
+              <div class="progress-partial"></div>
             </div>
-        </div>
-
-        <footer class="footer">
-            <div class="footer__group">
-                <a href="https://github.com/daniel-norris">
-                    <img src="assets/icons/github-brands.svg" alt="github icon">
-                    <p class="white medium">GitHub</p>
-                </a>
-                <a href="https://www.linkedin.com/in/danielpnorris/">
-                    <img src="assets/icons/linkedin-in-brands.svg" alt="linkedin icon">
-                    <p class="white medium">LinkedIn</p>
-                </a>
-                <a href="https://twitter.com/danielpnorris">
-                    <img src="assets/icons/twitter-brands.svg" alt="twitter icon">
-                    <p class="white medium">Twitter</p>
-                </a>
+          </div>
+        </section>
+        <section class="cards">
+          <img
+            src="assets/icons/javascript-original.svg"
+            class="cards__img"
+            alt="javascript icon"
+          />
+          <div class="cards__row">
+            <p class="cards__txt">JavaScript</p>
+            <p class="cards__txt-light">89%</p>
+          </div>
+          <div>
+            <div class="progress-full">
+              <div class="progress-partial"></div>
             </div>
-        </footer>
-    </body>
+          </div>
+        </section>
+        <section class="cards">
+          <img
+            src="assets/icons/react-original.svg"
+            class="cards__img"
+            alt="react icon"
+          />
+          <div class="cards__row">
+            <p class="cards__txt">React</p>
+            <p class="cards__txt-light">89%</p>
+          </div>
+          <div>
+            <div class="progress-full">
+              <div class="progress-partial"></div>
+            </div>
+          </div>
+        </section>
+        <section class="cards">
+          <img
+            src="assets/icons/nodejs-original.svg"
+            class="cards__img"
+            alt="node icon"
+          />
+          <div class="cards__row">
+            <p class="cards__txt">Node</p>
+            <p class="cards__txt-light">89%</p>
+          </div>
+          <div>
+            <div class="progress-full">
+              <div class="progress-partial"></div>
+            </div>
+          </div>
+        </section>
+        <section class="cards">
+          <img
+            src="assets/icons/laravel-plain.svg"
+            class="cards__img"
+            alt="laravel icon"
+          />
+          <div class="cards__row">
+            <p class="cards__txt">Laravel</p>
+            <p class="cards__txt-light">89%</p>
+          </div>
+          <div>
+            <div class="progress-full">
+              <div class="progress-partial"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="wrapper-light">
+      <article class="portfolio__header">
+        <header>
+          <h3 class="light primaryColor">Recent Work</h3>
+        </header>
+        <p class="regular darkGrey">
+          Comfortable working individually or as part of a team. The group work
+          below was all delivered as part of separate remote distributed teams
+          using Git, GitHub and Gitflow workflow.
+        </p>
+      </article>
+      <div class="portfolio__articles">
+        <article class="cards-portfolio">
+          <picture>
+            <source srcset="assets/images/foodraft.webp" />
+            <img
+              class="card__image"
+              src="assets/images/foodraft.PNG"
+              alt="screenshot of foodraft app"
+            />
+          </picture>
+          <header>
+            <h4 class="light-sml primaryColor">FooDraft</h4>
+          </header>
+          <p class="regular-tiny darkGrey">
+            A full stack application built independently enabling users to
+            draft, select, randomise and predict winners for football teams of
+            sizes 1 - 9.
+          </p>
+          <div class="cards-portfolio__tech">
+            <div>
+              <img src="assets/icons/link-solid.svg" alt="web link" />
+              <a href="https://daniel-norris.github.io/football_app/#/">
+                <p>www.foodraft.com</p>
+              </a>
+            </div>
+            <div>
+              <img
+                src="assets/icons/github-original.svg"
+                alt="icon for github"
+              />
+              <a href="https://github.com/daniel-norris/football_app">
+                <p>github.com/foodraft</p>
+              </a>
+            </div>
+            <div>
+              <img src="assets/icons/react-original.svg" alt="icon for react" />
+              <p>React</p>
+            </div>
+            <div>
+              <img src="assets/icons/redux-original.svg" alt="icon for redux" />
+              <p>Redux</p>
+            </div>
+            <div>
+              <img
+                src="assets/icons/laravel-plain.svg"
+                alt="icon for laravel"
+              />
+              <p>Laravel</p>
+            </div>
+            <div>
+              <img src="assets/icons/sass-original.svg" alt="icon for sass" />
+              <p>Sass</p>
+            </div>
+            <div>
+              <img
+                src="assets/icons/amazonwebservices-original.svg"
+                alt="icon for aws"
+              />
+              <p>AWS</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="cards-portfolio">
+          <picture>
+            <source srcset="assets/images/happycampers.webp" />
+            <img
+              class="card__image"
+              src="assets/images/happycampers.PNG"
+              alt="screenshot of happycampers app"
+            />
+          </picture>
+          <header>
+            <h4 class="light-sml primaryColor">HappyCampers</h4>
+          </header>
+          <p class="regular-tiny darkGrey">
+            Built as a team of 4 using React, Redux with a Laravel RESTful API.
+            Consuming a 3rd party API, Google Maps. An app enabling users to
+            find affordable camping spots across the UK.
+          </p>
+          <div class="cards-portfolio__tech">
+            <div>
+              <img
+                src="assets/icons/github-original.svg"
+                alt="icon for github"
+              />
+              <a href="https://github.com/daniel-norris/happy-campers">
+                <p>github.com/happycampers</p>
+              </a>
+            </div>
+            <div>
+              <img src="assets/icons/react-original.svg" alt="icon for react" />
+              <p>React</p>
+            </div>
+            <div>
+              <img src="assets/icons/redux-original.svg" alt="icon for redux" />
+              <p>Redux</p>
+            </div>
+            <div>
+              <img
+                src="assets/icons/laravel-plain.svg"
+                alt="icon for laravel"
+              />
+              <p>Laravel</p>
+            </div>
+            <div>
+              <img src="assets/icons/sass-original.svg" alt="icon for sass" />
+              <p>Sass</p>
+            </div>
+            <div>
+              <img
+                src="assets/icons/amazonwebservices-original.svg"
+                alt="icon for aws"
+              />
+              <p>AWS</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="cards-portfolio">
+          <picture>
+            <source srcset="assets/images/neu.webp" />
+            <img
+              class="card__image"
+              src="assets/images/neu.PNG"
+              alt="screenshot of neu component library"
+            />
+          </picture>
+          <header>
+            <h4 class="light-sml primaryColor">Neu UI</h4>
+          </header>
+          <p class="regular-tiny darkGrey">
+            "Neu" a neumorphic open-source component library created using
+            Styled Components, React and style guide created using Storybook.
+            The deployment and release process is completed automated and
+            includes integrated unit tests and regression testing using Jest,
+            CircleCI and webhooks. The package is currently available on npm.
+          </p>
+          <div class="cards-portfolio__tech">
+            <div>
+              <img src="assets/icons/link-solid.svg" alt="web link" />
+              <a href="https://ui-neu.netlify.app/">
+                <p>www.neu-ui.com</p>
+              </a>
+            </div>
+            <div>
+              <img src="assets/icons/npm-brands.svg" alt="npm link" />
+              <a href="https://www.npmjs.com/package/ui-neu">
+                <p>npmjs.com/package/ui-neu</p>
+              </a>
+            </div>
+            <div>
+              <img
+                src="assets/icons/github-original.svg"
+                alt="icon for github"
+              />
+              <a href="https://github.com/daniel-norris/neu_ui">
+                <p>github.com/neu</p>
+              </a>
+            </div>
+            <div>
+              <img src="assets/icons/react-original.svg" alt="icon for react" />
+              <p>React</p>
+            </div>
+            <div>
+              <img src="assets/icons/sass-original.svg" alt="icon for sass" />
+              <p>Sass</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="cards-portfolio">
+          <picture>
+            <source srcset="assets/images/pingpong.webp" />
+            <img
+              class="card__image"
+              src="assets/images/pingpong.PNG"
+              alt="screenshot of pingpong app"
+            />
+          </picture>
+          <header>
+            <h4 class="light-sml primaryColor">PingPong</h4>
+          </header>
+          <p class="regular-tiny darkGrey">
+            A ping pong scoring app that enables the user to choose player
+            names, serve alternation and winning score. Additional logic
+            included to determine deuce, game history and language localisation
+            to Esperanto. Built using React, Redux and React Bootstrap.
+          </p>
+          <div class="cards-portfolio__tech">
+            <div>
+              <img
+                src="assets/icons/github-original.svg"
+                alt="icon for github"
+              />
+              <a href="https://github.com/daniel-norris/pingpong">
+                <p>github.com/pingpong</p>
+              </a>
+            </div>
+            <div>
+              <img src="assets/icons/react-original.svg" alt="icon for react" />
+              <p>React</p>
+            </div>
+            <div>
+              <img src="assets/icons/redux-original.svg" alt="icon for redux" />
+              <p>Redux</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__group">
+        <a href="https://github.com/daniel-norris">
+          <img src="assets/icons/github-brands.svg" alt="github icon" />
+          <p class="white medium">GitHub</p>
+        </a>
+        <a href="https://www.linkedin.com/in/danielpnorris/">
+          <img src="assets/icons/linkedin-in-brands.svg" alt="linkedin icon" />
+          <p class="white medium">LinkedIn</p>
+        </a>
+        <a href="https://twitter.com/danielpnorris">
+          <img src="assets/icons/twitter-brands.svg" alt="twitter icon" />
+          <p class="white medium">Twitter</p>
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
