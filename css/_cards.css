@@ -2,20 +2,15 @@
 
 .cards {
     box-sizing: border-box;
-    /* width: 22.5rem;  */
-    height: 13.75rem;
     background-color: #fff;
     border: 1px solid #DDDFE7;
     border-radius: 4px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-.cards > * {
     margin-bottom: 1rem;
 }
+
 
 .cards__row {
     display: flex;
@@ -41,8 +36,6 @@
     height: 4.125rem;
     align-self: center;
 }
-
-
 
 /* blog cards */
 
@@ -73,9 +66,7 @@
 
 .cards-long footer {
     display: flex;
-
     justify-content: space-between;
-
 }
 
 .cards-long__stats {
@@ -95,8 +86,6 @@
 .cards-long__stats > div > :first-child {
     margin-right: .5rem;
 }
-
-
 
 /* portfolio cards */
 
@@ -157,7 +146,6 @@
 .cards-portfolio__tech source {
     width: 1.875rem;
     height: 1.875rem;
-
 }
 
 /* progress bars */
