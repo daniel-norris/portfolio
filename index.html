@@ -37,12 +37,12 @@
                 <img src="assets/icons/scroll_caret.svg" alt="down caret to scroll down" />
                 <img src="assets/icons/scroll_caret.svg" alt="down caret to scroll down" />
             </div>
-            <a class="link-scroll" href="#">Scroll Down</a>
+            <a class="link-scroll" href="#skills">Scroll Down</a>
         </section>
     </div>
 
     <div class="wrapper">
-        <article class="skills__header">
+        <article id="skills" class="skills__header">
             <header>
                 <h3 class="light primaryColor">Technical Experience</h3>
             </header>
@@ -65,10 +65,25 @@
                 <img src="assets/icons/react-original.svg" class="cards__img" alt="react icon" />
             </section>
             <section class="cards">
+                <img src="assets/icons/redux-original.svg" class="cards__img" alt="redux icon" />
+            </section>
+            <section class="cards">
                 <img src="assets/icons/nodejs-original.svg" class="cards__img" alt="node icon" />
             </section>
             <section class="cards">
                 <img src="assets/icons/laravel-plain.svg" class="cards__img" alt="laravel icon" />
+            </section>
+            <section class="cards">
+                <img src="assets/icons/php-original.svg" class="cards__img" alt="php icon" />
+            </section>
+            <section class="cards">
+                <img src="assets/icons/sass-original.svg" class="cards__img" alt="sass icon" />
+            </section>
+            <section class="cards">
+                <img src="assets/icons/linux-original.svg" class="cards__img" alt="linux icon" />
+            </section>
+            <section class="cards">
+                <img src="assets/icons/vagrant-original.svg" class="cards__img" alt="vagrant icon" />
             </section>
         </div>
     </div>
@@ -85,6 +100,42 @@
             </p>
         </article>
         <div class="portfolio__articles">
+            <article class="cards-portfolio">
+                <picture>
+                    <source srcset="assets/images/stocks.webp" />
+                    <img class="card__image" src="assets/images/stocks.PNG" alt="screenshot of foodraft app" />
+                </picture>
+                <header>
+                    <h4 class="light-sml primaryColor">Stock Dashboard</h4>
+                </header>
+                <p class="regular-tiny darkGrey">
+                    WIP. Dashboard built using React and Redux enabling users to keep track of a portfolio of stocks,
+                    including data such as intra day trading changes, change, % change, volume and market cap. Initial
+                    release will include candlestick, line chart graph data and live searching.
+                </p>
+                <div class="cards-portfolio__tech">
+                    <div>
+                        <img src="assets/icons/link-solid.svg" alt="web link" />
+                        <a href="https://stock-portfolio.netlify.app/">
+                            <p>www.stocks-portfolio.com</p>
+                        </a>
+                    </div>
+                    <div>
+                        <img src="assets/icons/github-original.svg" alt="icon for github" />
+                        <a href="https://github.com/daniel-norris/stock_price_portfolio">
+                            <p>github.com/stocks-portfolio</p>
+                        </a>
+                    </div>
+                    <div>
+                        <img src="assets/icons/react-original.svg" alt="icon for react" />
+                        <p>React</p>
+                    </div>
+                    <div>
+                        <img src="assets/icons/redux-original.svg" alt="icon for redux" />
+                        <p>Redux</p>
+                    </div>
+                </div>
+            </article>
             <article class="cards-portfolio">
                 <picture>
                     <source srcset="assets/images/foodraft.webp" />
@@ -218,7 +269,7 @@
                     </div>
                     <div>
                         <img src="assets/icons/sass-original.svg" alt="icon for sass" />
-                        <p>Sass</p>
+                        <p>Styled Components</p>
                     </div>
                 </div>
             </article>
@@ -251,6 +302,39 @@
                     <div>
                         <img src="assets/icons/redux-original.svg" alt="icon for redux" />
                         <p>Redux</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cards-portfolio">
+                <picture>
+                    <source srcset="assets/images/breakout.webp" />
+                    <img class="card__image" src="assets/images/breakout.PNG" alt="screenshot of breakout game" />
+                </picture>
+                <header>
+                    <h4 class="light-sml primaryColor">Breakout</h4>
+                </header>
+                <p class="regular-tiny darkGrey">
+                    A copy of the Atari Breakout game released in 1976 and originally built by Steve Wozniak. This was a
+                    personal exercise on revisiting vanilla JS and exploring uses for the canvas element for the first
+                    time.
+                </p>
+                <div class="cards-portfolio__tech">
+                    <div>
+                        <img src="assets/icons/link-solid.svg" alt="web link" />
+                        <a href="https://daniel-norris.github.io/2d_canvas_game/">
+                            <p>www.breakout-clone.com</p>
+                        </a>
+                    </div>
+                    <div>
+                        <img src="assets/icons/github-original.svg" alt="icon for github" />
+                        <a href="https://github.com/daniel-norris/2d_canvas_game">
+                            <p>github.com/breakout</p>
+                        </a>
+                    </div>
+                    <div>
+                        <img src="assets/icons/javascript-original.svg" alt="icon for react" />
+                        <p>Javascript</p>
                     </div>
                 </div>
             </article>

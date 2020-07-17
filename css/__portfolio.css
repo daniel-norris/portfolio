@@ -54,14 +54,11 @@
     }
 
     .portfolio__articles {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
 
     }
-
-
 
     .portfolio__links {
         display: flex;
